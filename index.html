@@ -22,10 +22,10 @@
     <input type="text" id="name1" placeholder="Digite o nome" maxlength="12" />
 
     <label>Cor:</label>
-    <div id="colors1"></div>
+    <div id="colors1" class="color-container"></div>
 
     <label>Acessório:</label>
-    <div id="accs1">
+    <div id="accs1" class="acc-container">
       <span class="accessory-option" data-acc="none">Nenhum</span>
       <span class="accessory-option" data-acc="hat">🎩 Chapéu</span>
       <span class="accessory-option" data-acc="glasses">🕶️ Óculos</span>
@@ -40,10 +40,10 @@
     <input type="text" id="name2" placeholder="Digite o nome" maxlength="12" />
 
     <label>Cor:</label>
-    <div id="colors2"></div>
+    <div id="colors2" class="color-container"></div>
 
     <label>Acessório:</label>
-    <div id="accs2">
+    <div id="accs2" class="acc-container">
       <span class="accessory-option" data-acc="none">Nenhum</span>
       <span class="accessory-option" data-acc="hat">🎩 Chapéu</span>
       <span class="accessory-option" data-acc="glasses">🕶️ Óculos</span>
@@ -71,7 +71,7 @@
     </select>
   </div>
 
-  <button id="startBtn">Começar Jogo</button>
+  <button id="startBtn" disabled>Começar Jogo</button>
 </div>
 
 <canvas id="game" width="600" height="400" tabindex="0" style="display:none;"></canvas>
